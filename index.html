@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untitled UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar container">
+    <div class="logo"><nobr>Untitled UI</nobr></div>
+    <div class="hamburger" id="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#">Home</a></li>
+      <!-- <li><a href="#">Products</a></li> -->
+      <li><div class="dropdown">
+        <button class="dropbtn">Products
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div></li>
+      <!-- <li><a href="#">Resources</a></li> -->
+      <li><div class="dropdown">
+        <button class="dropbtn">Resources
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+    </div>
+    <div class="log-sign">
+      <ul class="nav-links" id="nav-links">
+      <li><a href="#" class="login">Log in</a></li>
+      <li><a href="#" class="btn-signup">Sign up</a></li>
+    </ul>
+  </div>
+    <div class="overlay" id="overlay"></div>
+  </nav>
+
+  <!-- <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="logo-menu">
+          <div class="logo">
+            <span>Untitled UI</span>
+          </div>
+
+          <ul class="menu">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="login-signup">
+          <a href="#" class="btn btn-login">Log in</a>
+          <a href="#" class="btn btn-signup">Sign Up</a>
+        </div>
+
+      </nav>
+    </div>
+  </header> -->
+
+  <main>
+    <section class="about">
+      <div class="container">
+        <h5>About us</h5>
+        <h2>About the company</h2>
+        <p>Learn more about the company and the team behind it.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="content-grid">
+          <div class="text-content">
+            <p class="tagline">We’ve helped hundreds of companies</p>
+            <h1>We’re only just getting<br>started on our journey</h1>
+            <!-- <p>Everything you need to build modern UI and great products. We’ve done all the heavy lifting so you don’t have to—the perfect starting point for any project.</p> -->
+            <div class="stats">
+              <div class="stat"><span>400+</span><br>Projects completed</div>
+              <div class="stat"><span>600%</span><br> Return on investment</div>
+              <div class="stat"><span>10k</span><br> Global downloads</div>
+              <div class="stat"><span>200+</span><br> 5-star reviews</div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="office.jpg" alt="Office setup">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands">
+      <div class="container">
+        <p>From startups to the world’s largest companies</p>
+        <div class="brand-logos">
+          <span>Layers</span>
+          <span>Sisyphus</span>
+          <span>Circooels</span>
+          <span>Catalog</span>
+          <span>Quotient</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
